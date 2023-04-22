@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+
+
+
+<style>
+	 #main-footer
+    {
+      color: #FFFFFF;
+      font-family: "Segoe UI";
+      background: #2B2B2B;
+      text-align: center;
+      margin-top: 75px;
+      padding: 16px;
+      bottom: 8px;
+    }
+	
+    .img_holder img{
+        max-width: 100%; max-height: 100%;
+    }
+
+    .btn-file {
+    position: relative;
+    overflow: hidden;
+    }
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+</style>
+
+	<div class="container">
+		<h1>About : </h1>
+    <h3>This is a basic machine learning based medical app.</h3>
+    <p>The prediction about the disease is made with the help of the machine learning model which itself is trained on the thousands of the datasets.So with the following paragraph I gonna be describing about the liver disease which gonna be getting employed in this app.</p>
+ 
+
+
+<h2>Liver Disease</h2>
+<p><li>Liver disease is any disturbance of liver function that causes illness. The liver is responsible for many critical functions within the body and should it become diseased or injured, the loss of those functions can cause significant damage to the body. Liver disease is also referred to as hepatic disease.</li><br>
+
+<li>Liver disease is a broad term that covers all the potential problems that cause the liver to fail to perform its designated functions. Usually, more than 75% or three quarters of liver tissue needs to be affected before a decrease in function occurs.</li><br></p>
+
+<h3>Symptoms</h3>
+<p>Classic symptoms of liver disease include:</p>
+ <ul>
+  <li>nausea</li>
+  <li>vomiting</li>
+  <li>right upper quadrant abdominal pain, and </li>
+  <li>jaundice (a yellow discoloration of the skin due to elevated bilirubin concentrations in the bloodstream).</li>
+</ul>
+<br> 
+<hr>
+<br>
+
+{% endblock %}
